@@ -1,0 +1,19 @@
+{
+  "name": "identicons",
+  "version": "0.1.0",
+  "description": "Generate SVG identicons in node and the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-examples": "browserify examples/examples.js -o examples/bundle.js"
+  },
+  "keywords": [
+    "svg",
+    "identicons"
+  ],
+  "author": "Alberto Gimeno <gimenete@gimenete.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^12.0.1"
+  }
+}
